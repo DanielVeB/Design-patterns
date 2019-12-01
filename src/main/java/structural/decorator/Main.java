@@ -1,8 +1,8 @@
-package decorator;
+package structural.decorator;
 
-import decorator.decorators.AddDecorator;
-import decorator.decorators.MultiplyDecorator;
-import decorator.decorators.SubstractDecorator;
+import structural.decorator.decorators.AddDecorator;
+import structural.decorator.decorators.MultiplyDecorator;
+import structural.decorator.decorators.SubstractDecorator;
 
 public class Main {
 

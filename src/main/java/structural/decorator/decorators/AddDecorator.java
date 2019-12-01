@@ -1,6 +1,6 @@
-package decorator.decorators;
+package structural.decorator.decorators;
 
-import decorator.Operation;
+import structural.decorator.Operation;
 
 public class AddDecorator extends DoubleDecorator {
 

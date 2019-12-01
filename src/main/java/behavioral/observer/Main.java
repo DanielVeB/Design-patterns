@@ -1,4 +1,4 @@
-package observer;
+package behavioral.observer;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Observer pattern\n");
 
         List<Observer> observers = new LinkedList<>();
-        observers.add(() -> System.out.println("Anonymous observer update ..."));
+        observers.add(() -> System.out.println("Anonymous behavioral.observer update ..."));
 
         Subject subject = new Subject(observers);
         SecondObserverImpl secondObserver = new SecondObserverImpl();
